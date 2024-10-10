@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce for food</title>
+    <link rel="stylesheet" href="./SpecificProduct.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="logo">
+        <h1>Food Store</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../ProductPage/Product.html">Home</a></li>
+          <li>
+            <a href="../CartPage/cart.html">Cart (<span id="cart-count">0</span>)</a>
+          </li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Product Details Section -->
+    <main>
+      <div class="product-details">
+        <img
+          src="https://via.placeholder.com/300"
+          alt="Product Image"
+          id="product-image"
+        />
+        <div class="product-info">
+          <h2 id="product-name">Product Name</h2>
+          <p id="product-price">$00.00</p>
+          <p id="product-description">This is a product description...</p>
+          <button id="order-now-btn">Order Now</button>
+          <button id="add-to-cart-btn">Add to Cart</button>
+        </div>
+      </div>
+    </main>
+    <script src="./SpecificProduct.js"></script>
+  </body>
+</html>

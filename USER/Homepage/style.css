@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", system-ui;
+  font-optical-sizing: auto;
+}
+
+header {
+  padding: 1.5rem;
+  background-color: darkcyan;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+header nav h1 {
+  font-size: 1.5rem;
+}
+header nav img {
+  position: absolute;
+  top: 13px;
+  left: 14rem;
+  width: 40px;
+  height: 40px;
+}
+header nav button {
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: black;
+  color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+header nav button:hover {
+  letter-spacing: 3px;
+  background-color: black;
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(221, 220, 223) 0px 7px 29px 0px;
+}
+
+header nav button:active {
+  letter-spacing: 3px;
+  background-color: black;
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(9, 1, 26) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+/* main */
+.main-content{
+          background: url(../IMG/front-view-young-male-courier-green-uniform-with-coffee-yellow.jpg);
+          height: 80vh;
+          background-size: 100%;
+          background-repeat: no-repeat;
+          background-position: center;
+}
+.main-content h1{
+          font-size:  3rem; 
+          color: white;
+          width: 25rem;
+          position: absolute;
+          top: 7rem;
+          left: 4rem;
+}
+.main-content p{
+          width: 25rem;
+          position: absolute;
+          top: 15rem;
+          left: 4rem;
+          font-weight: bold;
+
+}
+.main-content img{
+  width: 25rem;
+  margin-top: 15rem;
+}
+footer{
+  padding: .5rem;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}

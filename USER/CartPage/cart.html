@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce for food</title>
+    <link rel="stylesheet" href="./cart.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="header-container">
+        <div class="logo">
+          <h1>Food E-commerce</h1>
+        </div>
+        <nav class="nav-menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li>
+              <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+            </li>
+            <li><a href="my-orders.html">My Orders</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Cart Section -->
+    <main>
+      <section class="cart-section">
+        <h2>Your Cart</h2>
+        <div class="cart-container">
+          <!-- Placeholder for cart items -->
+          <div class="cart-items"></div>
+
+          <!-- Checkout Button and Total Amount -->
+          <div class="cart-summary">
+            <h3>Total: ₹<span id="total-price">0</span></h3>
+            <button class="checkout-btn">Proceed to Checkout</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; 2024 Food E-commerce. All Rights Reserved.</p>
+    </footer>
+
+    <script src="./cart.js"></script>
+  </body>
+</html>
